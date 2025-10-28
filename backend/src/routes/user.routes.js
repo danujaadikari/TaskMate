@@ -16,7 +16,7 @@ router.get('/profile', async (req, res) => {
     if (!user) {
       return res.status(404).json({
         status: 'error',
-        message: 'User not found this is pahe error'
+        message: 'User not found this is page error'
       });
     }
 
