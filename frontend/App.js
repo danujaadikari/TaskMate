@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { AuthProvider } from './src/context/AuthContext';
 import { TaskProvider } from './src/context/TaskContext';
 import AppNavigator from './src/navigation/AppNavigator';
-import 'react-native-gesture-handler';  
+
 
 export default function App() {
   return (
