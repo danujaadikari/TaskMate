@@ -1,0 +1,150 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║          🚫 NODE.JS IS NOT INSTALLED ON YOUR COMPUTER 🚫          ║
+║                                                                    ║
+║     The TaskMate project CANNOT run without Node.js installed     ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+
+📋 INSTALLATION CHECKLIST - Follow these steps EXACTLY:
+
+┌────────────────────────────────────────────────────────────────────┐
+│ STEP 1: Download Node.js                                          │
+└────────────────────────────────────────────────────────────────────┘
+
+   1. Open your web browser
+   2. Go to: https://nodejs.org/
+   3. You will see TWO green buttons:
+      
+      [  20.x.x LTS  ]    [  21.x.x Current  ]
+       ↑ Click this one!
+   
+   4. Download the Windows Installer (.msi)
+   5. Save it to your Downloads folder
+
+   [ ] Downloaded Node.js installer
+
+
+┌────────────────────────────────────────────────────────────────────┐
+│ STEP 2: Install Node.js                                           │
+└────────────────────────────────────────────────────────────────────┘
+
+   1. Go to your Downloads folder
+   2. Find: node-v20.x.x-x64.msi (or similar)
+   3. Double-click to run the installer
+   4. Click "Next" on the welcome screen
+   5. Accept the license agreement
+   6. Keep the default installation path
+   7. ⚠️  IMPORTANT: On the "Custom Setup" screen,
+      make sure "Add to PATH" is checked ✓
+   8. Click "Next" → "Install"
+   9. Wait for installation (takes 2-3 minutes)
+   10. Click "Finish"
+
+   [ ] Installed Node.js
+
+
+┌────────────────────────────────────────────────────────────────────┐
+│ STEP 3: RESTART YOUR COMPUTER (Required!)                         │
+└────────────────────────────────────────────────────────────────────┘
+
+   ⚠️  THIS IS CRITICAL - Don't skip this step!
+   
+   Windows needs to restart to update the PATH environment variable.
+   
+   1. Save all your work
+   2. Close all applications
+   3. Restart your computer
+   4. Log back in
+
+   [ ] Restarted computer
+
+
+┌────────────────────────────────────────────────────────────────────┐
+│ STEP 4: Verify Installation                                       │
+└────────────────────────────────────────────────────────────────────┘
+
+   After restarting:
+   
+   1. Open a NEW PowerShell window
+   2. Type: node --version
+   3. Press Enter
+   
+   ✅ You should see: v20.x.x (or similar)
+   
+   4. Type: npm --version
+   5. Press Enter
+   
+   ✅ You should see: 10.x.x (or similar)
+   
+   If you see version numbers → SUCCESS! ✓
+   If you still see "not recognized" → Try restarting again
+
+   [ ] Verified Node.js is working
+
+
+┌────────────────────────────────────────────────────────────────────┐
+│ STEP 5: Run TaskMate Setup                                        │
+└────────────────────────────────────────────────────────────────────┘
+
+   Now you can set up TaskMate!
+   
+   In PowerShell, run:
+   
+   cd "C:\Users\Danuja Adikari\Documents\GitHub\TaskMate"
+   .\setup.bat
+   
+   This will automatically:
+   - Install all dependencies
+   - Create configuration files
+   - Prepare the project to run
+
+   [ ] Ran setup.bat successfully
+
+
+┌────────────────────────────────────────────────────────────────────┐
+│ STEP 6: Configure & Run                                           │
+└────────────────────────────────────────────────────────────────────┘
+
+   1. Edit backend\.env file (created by setup.bat)
+   2. Add your MongoDB connection and JWT secret
+   3. Run: .\start-all.bat
+   
+   🎉 TaskMate will start running!
+
+   [ ] Project is running
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║  📞 TROUBLESHOOTING                                                ║
+║                                                                    ║
+║  If "npm --version" still shows error after restart:              ║
+║                                                                    ║
+║  1. Make sure you installed the 64-bit version (.msi)            ║
+║  2. Restart your computer again                                   ║
+║  3. Open a COMPLETELY NEW PowerShell window                       ║
+║  4. Check if Node.js installed to: C:\Program Files\nodejs        ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+
+⏱️  ESTIMATED TIME:
+   - Download: 2-3 minutes
+   - Install: 2-3 minutes
+   - Restart: 2 minutes
+   - Setup: 3-5 minutes
+   ─────────────────────
+   Total: ~10-15 minutes
+
+
+🎯 YOUR CURRENT STATUS: Step 0 - Node.js not installed
+
+👉 START HERE: Go to https://nodejs.org/ and download the LTS version
+
+
+═══════════════════════════════════════════════════════════════════
+
+Save this file and check off each step as you complete it!
+
