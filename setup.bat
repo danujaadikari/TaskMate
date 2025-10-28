@@ -89,3 +89,6 @@ echo    - Or run 'start-all.bat' to start both
 echo.
 echo ========================================
 pause
+MONGODB_URI=mongodb://localhost:27017/taskmate
+JWT_SECRET=my-super-secret-key-12345
+
